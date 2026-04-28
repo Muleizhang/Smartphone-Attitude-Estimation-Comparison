@@ -16,11 +16,16 @@
 \sisetup{detect-all}
 
 \title{使用手机陀螺仪和磁力计检测姿态的对比实验分析}
-\author{基于 phyphox 采集数据}
+\author{张沐雷\\学号：2024302121024}
 \date{\today}
 
 \begin{document}
 \maketitle
+
+\begin{center}
+\small
+数据与代码仓库：\url{https://github.com/Muleizhang/Smartphone-Attitude-Estimation-Comparison}
+\end{center}
 
 \begin{abstract}
 本文使用 phyphox 采集手机陀螺仪和磁力计数据，围绕静态漂移、定角度旋转和回归原点三个实验比较二者对水平姿态方向的估计能力。结果表明：陀螺仪在短时间内角度积分连续、重复性好，实验 2 中五个静止角度的误差均小于 \SI{1}{\degree}；但静态实验中仍可测得约 \SI{-0.207}{\degree\per\minute} 的零偏漂移。磁力计不需要时间积分，静态航向标准差约为 \SI{2.10}{\degree}，但对环境磁场十分敏感，定角度实验中最大误差达到 \SI{24.06}{\degree}，回归原点实验中还出现了磁场模长峰值 \SI{1676.8}{\micro\tesla} 的强干扰。实验支持的结论是：陀螺仪适合短时平滑跟踪，磁力计适合提供绝对方向约束，但单独使用任一传感器都不稳健，实际系统应采用互补滤波或卡尔曼滤波进行融合。
