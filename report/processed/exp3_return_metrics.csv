@@ -1,0 +1,2 @@
+gyro_net_deg,gyro_nearest_turns,gyro_residual_deg,gyro_start_std_deg,gyro_end_std_deg,mag_residual_deg,mag_start_std_deg,mag_end_std_deg,mag_norm_mean_uT,mag_norm_std_uT,mag_norm_max_uT,mag_norm_max_time_s,mag_norm_over_100_ratio
+1080.4385334642666,3.0,0.4385334642665839,0.002053028845616943,0.7904297815226347,11.069098748847864,2.10710929249889,1.7012958274234709,55.07509041839409,107.10560502493253,1676.7584988260712,42.07506088,3.656716417910448

@@ -1,0 +1,2 @@
+gyro_bias_rad_s,gyro_drift_deg_min,gyro_raw_final_deg,gyro_corrected_final_deg,mag_heading_std_deg,mag_norm_mean_uT,mag_norm_std_uT
+-6.019263108003323e-05,-0.20692702312043343,-0.1102707641755746,3.93317281809431e-05,2.1020829651965705,48.034079715985825,0.8241224120150503

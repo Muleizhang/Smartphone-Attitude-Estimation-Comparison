@@ -1,0 +1,121 @@
+{
+  "device_model": "Xiaomi 24129PN74C",
+  "summary": [
+    {
+      "exp": "exp1",
+      "start_time": "2026-04-28 14:10:32.084 UTC+08:00",
+      "pause_time": "2026-04-28 14:11:04.092 UTC+08:00",
+      "duration_s": 32.00404365,
+      "gyro_samples": 15035,
+      "gyro_fs_hz": 470.0296378291768,
+      "mag_samples": 3198,
+      "mag_fs_hz": 100.00000001251173
+    },
+    {
+      "exp": "exp2",
+      "start_time": "2026-04-28 14:13:32.238 UTC+08:00",
+      "pause_time": "2026-04-28 14:14:05.832 UTC+08:00",
+      "duration_s": 33.58949386,
+      "gyro_samples": 15780,
+      "gyro_fs_hz": 470.0233296417761,
+      "mag_samples": 3357,
+      "mag_fs_hz": 99.99999999106079
+    },
+    {
+      "exp": "exp3",
+      "start_time": "2026-04-28 14:15:03.199 UTC+08:00",
+      "pause_time": "2026-04-28 14:16:10.221 UTC+08:00",
+      "duration_s": 67.0169475,
+      "gyro_samples": 31492,
+      "gyro_fs_hz": 470.0218227469561,
+      "mag_samples": 6700,
+      "mag_fs_hz": 100.00000011494252
+    }
+  ],
+  "exp1": {
+    "gyro_bias_rad_s": -6.019263108003323e-05,
+    "gyro_drift_deg_min": -0.20692702312043343,
+    "gyro_raw_final_deg": -0.1102707641755746,
+    "gyro_corrected_final_deg": 3.93317281809431e-05,
+    "mag_heading_std_deg": 2.1020829651965705,
+    "mag_norm_mean_uT": 48.034079715985825,
+    "mag_norm_std_uT": 0.8241224120150503
+  },
+  "exp2": [
+    {
+      "expected_deg": 0.0,
+      "segment_start_s": 0.0188198,
+      "segment_end_s": 1.429394071,
+      "segment_center_s": 0.7241069354999999,
+      "gyro_deg": 5.579010173995762e-19,
+      "gyro_error_deg": 5.579010173995762e-19,
+      "gyro_std_deg": 0.0028887835838003724,
+      "mag_deg": 4.012476625468801e-15,
+      "mag_error_deg": 4.012476625468801e-15,
+      "mag_std_deg": 1.7132354241976435
+    },
+    {
+      "expected_deg": 90.0,
+      "segment_start_s": 4.416492248,
+      "segment_end_s": 8.201423758,
+      "segment_center_s": 6.308958003000001,
+      "gyro_deg": 89.47758842325261,
+      "gyro_error_deg": -0.5224115767473876,
+      "gyro_std_deg": 0.017430293208233208,
+      "mag_deg": 98.00940718982459,
+      "mag_error_deg": 8.009407189824586,
+      "mag_std_deg": 3.294117998209179
+    },
+    {
+      "expected_deg": 180.0,
+      "segment_start_s": 10.9140623,
+      "segment_end_s": 16.44996631,
+      "segment_center_s": 13.682014305,
+      "gyro_deg": 180.4174874047439,
+      "gyro_error_deg": 0.4174874047438948,
+      "gyro_std_deg": 0.2942870807247263,
+      "mag_deg": 204.0596182372151,
+      "mag_error_deg": 24.05961823721509,
+      "mag_std_deg": 1.8093080882855315
+    },
+    {
+      "expected_deg": 270.0,
+      "segment_start_s": 19.31365391,
+      "segment_end_s": 25.20696725,
+      "segment_center_s": 22.260310580000002,
+      "gyro_deg": 269.2455181393371,
+      "gyro_error_deg": -0.7544818606629065,
+      "gyro_std_deg": 0.07445690763607596,
+      "mag_deg": 277.33614304833145,
+      "mag_error_deg": 7.336143048331451,
+      "mag_std_deg": 1.7385445875727172
+    },
+    {
+      "expected_deg": 360.0,
+      "segment_start_s": 27.48556964,
+      "segment_end_s": 33.58949386,
+      "segment_center_s": 30.53753175,
+      "gyro_deg": 359.5758203114085,
+      "gyro_error_deg": -0.4241796885914937,
+      "gyro_std_deg": 0.1244629163859207,
+      "mag_deg": 361.04908685015414,
+      "mag_error_deg": 1.04908685015414,
+      "mag_std_deg": 2.022062453860248
+    }
+  ],
+  "exp3": {
+    "gyro_net_deg": 1080.4385334642666,
+    "gyro_nearest_turns": 3.0,
+    "gyro_residual_deg": 0.4385334642665839,
+    "gyro_start_std_deg": 0.002053028845616943,
+    "gyro_end_std_deg": 0.7904297815226347,
+    "mag_residual_deg": 11.069098748847864,
+    "mag_start_std_deg": 2.10710929249889,
+    "mag_end_std_deg": 1.7012958274234709,
+    "mag_norm_mean_uT": 55.07509041839409,
+    "mag_norm_std_uT": 107.10560502493253,
+    "mag_norm_max_uT": 1676.7584988260712,
+    "mag_norm_max_time_s": 42.07506088,
+    "mag_norm_over_100_ratio": 3.656716417910448
+  }
+}
